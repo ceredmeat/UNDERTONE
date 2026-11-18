@@ -1,0 +1,34 @@
+{
+ "id": "undertone",
+ "version": "0.9",
+ "title": "UNDERTONE: subharmonic machine",
+ "category": "Machines",
+ "license": "GPL-2.0-or-later",
+ "author": "Cere, made with Claude",
+ "description": "UNDERTONE, a subharmonic SRC machine inspired by how the Moog Subharmonicon builds sound and by the Labyrinth's wavefolder: two oscillators, each with two subharmonics (its pitch divided by 1-16), saw to square, osc 2 an interval away in free, equal or just tuning, a wavefolder and a slow analog drift. Page 2's VIEW shows the six tones on a pitch ladder, or the waveform. Machine 35. Needs machine-pages 1.5 or newer and core 4.4. Its sequencers (SUBSEQ) are now in FREQSEQ.",
+ "device": "digitakt-mk1",
+ "os": "1.54",
+ "sources": [
+  "undertone.c"
+ ],
+ "machines": [
+  {
+   "id": 35,
+   "descriptor": "ut_machine"
+  }
+ ],
+ "subscribe": [
+  {
+   "event": "ev_render_voices",
+   "fn": "ut_render",
+   "order": 20
+  }
+ ],
+ "requires": [
+  "core",
+  "machine-pages"
+ ],
+ "resources": {
+  "core": "4.4"
+ }
+}
