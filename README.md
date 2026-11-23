@@ -1,4 +1,4 @@
-# UNDERTONE 0.9 (Digitakt MKI, OS 1.54)
+# UNDERTONE 1.0 (Digitakt MKI, OS 1.54)
 
 A subharmonic machine for the Digitakt MKI, inspired by how the Moog Subharmonicon builds its
 sound and by the Labyrinth's wavefolder. Two oscillators, each with two subharmonics (the
@@ -45,7 +45,7 @@ and CORRUPT modes. They can run on any track.
 
 ## Install
 
-Load `undertone-0.9.elemod` in Elekloader with **core 4.4** and **machine-pages** (1.11), build your
+Load `undertone-1.0.elemod` in Elekloader with **core 4.4** and **machine-pages** (1.11), build your
 OS and flash it. No `.syx` is shared here: it would contain Elektron's firmware.
 
 ## Notes
@@ -56,3 +56,9 @@ RND destinations.
 
 Licence: GPL-2.0-or-later. By Cere, made with Claude. Not affiliated with Moog Music or Bastl
 Instruments.
+
+## Changes
+
+| Version | What changed |
+|---|---|
+| 1.0 | The screen code is built smaller, which leaves more RAM for your other mods. The sound is unchanged. |
