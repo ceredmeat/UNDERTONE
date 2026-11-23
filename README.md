@@ -48,6 +48,10 @@ and CORRUPT modes. They can run on any track.
 Load `undertone-1.0.elemod` in Elekloader with **core 4.4** and **machine-pages** (1.11), build your
 OS and flash it. No `.syx` is shared here: it would contain Elektron's firmware.
 
+## Tested on a unit
+
+Tested on a Digitakt MKI, OS 1.54.
+
 ## Notes
 
 Needs **core 4.4** and **machine-pages**. Machine id 35. Page 2 uses sound slots 46–52, like every
